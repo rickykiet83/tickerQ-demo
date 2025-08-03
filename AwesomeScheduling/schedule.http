@@ -1,0 +1,17 @@
+### This request schedules a new task with specified coordinates.
+POST https://localhost:7185/scheduleReport
+Content-Type: application/json
+
+{
+  "reportType": "SalesReport",
+  "reportName": "Monthly Sales Summary",
+  "startDate": "2025-07-01T00:00:00Z",
+  "endDate": "2025-07-31T23:59:59Z",
+  "executionTime": "2025-08-03T02:30:00Z",
+  "format": "PDF",
+  "email": "user@example.com",
+  "phoneNumber": "+61412345678",
+  "additionalNotes": "Please include year-over-year comparison in the report."
+}
+
+###
